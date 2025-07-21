@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaCarSide } from "react-icons/fa6";
 
-function Tripdetails() {
+function Trip() {
   return (
     <>
       <div className='w-[150px] h-[150px] relative  mx-auto bg-orange-600 hover:bg-blue-950 border-2 border-white rounded-2xl'>
@@ -12,4 +12,4 @@ function Tripdetails() {
   )
 }
 
-export default Tripdetails
+export default Trip

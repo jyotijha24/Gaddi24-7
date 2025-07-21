@@ -1,6 +1,6 @@
 import RideSearchForm from "../components/RideSearchForm";
 import taxidriver from '../assets/taxidriver.png'; // 🟡 path to your taxi driver image
-import Tripdetails from "../components/tripdetails";
+import Trip from "../components/Trip";
 import  Card from "../components/Card";
 import firstimage from '../assets/firstimage.png'; // 🟡 path to your first image
 import secondimage from '../assets/secondimage.png';
@@ -57,17 +57,17 @@ function Index() {
 
             <div className=" w-[500px]  mx-auto flex justify-between items-center">
                <div className="relative ">
-                 <Tripdetails />
+                 <Trip />
                 <h1 className="absolute top-20 left-10 text-white text-sm">ONE-WAY </h1>
                <h1 className="absolute top-25 left-7 text-white text-sm">SINGLE ROUTE </h1>
                </div>
                 <div className="relative ">
-                 <Tripdetails />
+                 <Trip />
                 <h1 className="absolute top-20 left-10 text-white text-sm">OUTSTATION </h1>
                <h1 className="absolute top-25 left-10 text-white text-sm">ROUND TRIP </h1>
                </div>
                 <div className="relative ">
-                 <Tripdetails />
+                 <Trip />
                 <h1 className="absolute top-20 left-12 text-white text-sm">AIRPORT </h1>
                <h1 className="absolute top-25 left-12 text-white text-sm">TRANSIT </h1>
                </div>
