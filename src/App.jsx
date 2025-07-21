@@ -1,11 +1,11 @@
 import Header from "./components/Header";
-import HomePage from "./Pages/HomePage";
+import Index from "./pages/Index";
 
 function App() {
   return (
     <div className="font-sans">
       <Header />
-      <HomePage />
+      <Index />
     </div>
   );
 }

@@ -7,7 +7,7 @@ import secondimage from '../assets/secondimage.png';
 import thirdimage from '../assets/thirdimage.png'; // 🟡 path to your third image
 import fourthimage from '../assets/fourthimage.png'; // 🟡 path to your fourth image
 import Pricetable from "../components/Pricetable";
-function HomePage() {
+function Index() {
   const handleSearch = (formData) => {
     console.log("User selected:", formData);
     // Next step: redirect to results page or show cab options
@@ -105,4 +105,4 @@ function HomePage() {
   );
 }
 
-export default HomePage;
+export default Index;
